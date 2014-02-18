@@ -47,4 +47,3 @@ The source files are in the `angulargap/` folder. You can just grab the `angular
 
 AngularGap is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/angulargap/angulargap.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
