@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 20px;
 }
 .header a {
-    color: #2f9182; 
+    color: #07c7c3; 
 }
 .header a:hover,
 .header a:active {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     vertical-align: top;
 }
 .social a {
-    color: #2f9182 !important;   
+    color: #07c7c3 !important;   
 }
 .social .github-watch {
     width: 105px;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .container li:hover,
 .container li:active {
-    color: #2f9182; 
+    color: #07c7c3; 
 }
 .container .icon {
     font-size: 32px;
@@ -144,12 +144,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .footer {
   margin-top: 40px;
   padding: 20px 0 40px;
-  border-top: 1px solid #00b086;
+  border-top: 1px solid #07c7c3;
   font-size: 12px;
 }
 .footer a,
 .footer a:hover {
-  color: #00b086;
+  color: #07c7c3;
 }
 .footer a:hover {
   text-decoration: underline;
