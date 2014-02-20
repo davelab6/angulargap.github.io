@@ -1211,10 +1211,12 @@ input[type="range"]::-webkit-slider-thumb:after {
 }
 .input-wrap.input--icon .icon:first-child {
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 10px !important;
   font-size: 18px !important;
   color: #b0b0b0;
+  height: 100%;
+  line-height: 45px;
 }
 
 /**

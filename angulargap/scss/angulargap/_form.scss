@@ -18,6 +18,9 @@ $input-control-icon-padding:    0 10px 0 30px !default;
 
 $input-addon-width:             32px !default;
 
+$input-icon-height:             $global-full-height !default;
+$input-icon-line-height:        $input-control-height !default;
+
 $input-label-font-weight:       $global-font-weight !default;
 
 $input-addon-align:             center !default;
@@ -106,10 +109,12 @@ $input-addon-align:             center !default;
       }
 
       & .icon:first-child {
-        @include position($position: absolute, $top: 10px, $right: false, $bottom: false, $left: false);
+        @include position($position: absolute, $top: 0, $right: false, $bottom: false, $left: false);
         left: 10px !important;
         font-size: $input-control-font-size + 4 !important;
         color: lighten($input-default, 10%);
+        height: $input-icon-height;
+        line-height: $input-icon-line-height;
       }
     }
   }
