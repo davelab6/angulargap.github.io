@@ -2,7 +2,6 @@
 //------------------------------------------------------
 $bar-height:               44px !default;
 $bar-zindex:               10 !default;
-$bar-margin:               0 10px !default;
 
 $bar-common-color:         $global-gray !default;       
 $bar-background-color:     lighten($bar-common-color, 38%) !default;
@@ -61,8 +60,6 @@ $bar-input-padding:         0 10px !default;
     z-index: $bar-zindex;
 
     @include elements($name: title) {
-      margin: $bar-margin;
-      @include ellipsis();
       font-size: $global-font-size;
       font-weight: $bar-title-bold;
       width: $global-full-width;

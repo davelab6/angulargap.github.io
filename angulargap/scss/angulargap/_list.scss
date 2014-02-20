@@ -82,6 +82,7 @@ $list-checkbox-font-weight:        normal !default;
         @include display($value: flex);
         @include flex-align($value: center);
         @include position($position: relative, $top: false, $right: false, $bottom: false, $left: false);
+        padding: 0 $list-item-padding;
       }
 
       & a {
